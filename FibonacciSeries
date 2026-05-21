@@ -1,4 +1,3 @@
-import java.util.Scanner;
 
 public class FibonacciSeries {
 
@@ -23,8 +22,7 @@ public class FibonacciSeries {
             int next = first + second;
 
             // Update values
-            first = second;
-            second = next;
+            second = next;    
         }
 
         sc.close();
